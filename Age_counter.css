@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3921b3;
+}
+.main{
+    /* border: 2px solid white; */
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    width: 460px;
+    gap: 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+    box-shadow: 4px 6px 7px rgba(1,1,1,0.4);
+}
+.enter_age input{
+    padding: 10px 11px 10px 11px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #8e85b9;
+    border: none;
+    border-radius: 10px;
+}
+.search button{
+    padding: 6px 8px 6px 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.search button:active{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+.output{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.output button{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 4px 6px 7px rgba(1,1,1,0.4);
+}
+.output button p{
+    font-size: 30px;
+    font-weight: 700;
+}
+h3{
+    margin-top: 5px;
+    color: white;
+}
+
+@media(max-width:570px){
+    .main{
+        width: 400px;
+    }
+    .input{
+        width: 350px;
+        margin-left: 20px;
+    }
+    .enter_age input{
+        width: 200px;
+    }
+}

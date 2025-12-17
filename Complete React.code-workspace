@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Complete React",
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"git.enabled": false
+	}
+}
